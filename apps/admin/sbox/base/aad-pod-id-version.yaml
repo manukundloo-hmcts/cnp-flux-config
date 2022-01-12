@@ -9,6 +9,7 @@ spec:
   chart:
     spec:
       chart: aad-pod-identity
+      version: 4.1.7
       appVersion: 1.8.6
       sourceRef:
         kind: HelmRepository
