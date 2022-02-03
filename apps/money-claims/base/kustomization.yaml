@@ -3,4 +3,5 @@ kind: Kustomization
 resources:
   - ../../base
   - ../identity/identity.yaml
+  - ../cmc-citizen-frontend/cmc-citizen-frontend.yaml
 namespace: money-claims
