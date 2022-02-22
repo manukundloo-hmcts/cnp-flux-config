@@ -14,7 +14,8 @@ spec:
         "rd":
           resourceGroup: rd
           secrets:
-            - location-ref-api-POSTGRES-PASS
+            - name: location-ref-api-POSTGRES-PASS
+              alias: spring.datasource.password
             - ApplicationInsightsInstrumentationKey
             - name: rd-location-storage-account-name
               alias: ACCOUNT_NAME
