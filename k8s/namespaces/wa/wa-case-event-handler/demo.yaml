@@ -7,3 +7,11 @@ spec:
     java:
       environment:
         AZURE_SERVICE_BUS_FEATURE_TOGGLE: true
+        AZURE_SERVICE_BUS_TOPIC_NAME: "ccd-case-events-{{ .Values.global.environment }}-prem"
+        AZURE_SERVICE_BUS_SUBSCRIPTION_NAME: "wa-case-events-sub-{{ .Values.global.environment }}-prem"
+        AZURE_SERVICE_BUS_CCD_CASE_EVENTS_SUBSCRIPTION_NAME: "wa-ccd-case-events-sub-{{ .Values.global.environment }}-prem"
+      keyVaults:
+          wa:
+            secrets:
+              - name: ccd-shared-servicebus-connection-string-prem
+                alias: AZURE_SERVICE_BUS_CONNECTION_STRING
