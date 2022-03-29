@@ -3,4 +3,8 @@ kind: Kustomization
 namespace: sscs
 bases:
 - namespace.yaml
+- sscs-bulk-scan/sscs-bulk-scan.yaml
+- sscs-ccd-callback-orchestrator/sscs-ccd-callback-orchestrator.yaml
+- sscs-evidence-share/sscs-evidence-share.yaml
+- sscs-cor-frontend/sscs-cor-frontend.yaml
 # Warning : Adding a file here, adds to all environments to which you add your kustomization.
