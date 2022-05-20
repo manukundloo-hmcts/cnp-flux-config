@@ -363,3 +363,12 @@ apps/**/kustomize.yaml @hmcts/platform-operations
 k8s/namespaces/ts/ @hmcts/cdm
 k8s/**/common/ts/identity.yaml @hmcts/cdm
 apps/ts/ @hmcts/cdm
+
+### fis
+k8s/namespaces/fis/ @hmcts/family-integration
+k8s/**/common/fis/identity.yaml @hmcts/family-integration
+k8s/**/common/fis/fis-ds-web.yaml @hmcts/family-integration
+k8s/**/common/fis/fis-cos-api.yaml @hmcts/family-integration
+k8s/**/common/fis/fis-bulk-scan-api.yaml @hmcts/family-integration
+apps/fis/ @hmcts/reform-adoption
+k8s/**/common-overlay/adoption/ @hmcts/family-integration
