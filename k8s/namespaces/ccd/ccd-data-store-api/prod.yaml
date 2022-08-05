@@ -10,6 +10,7 @@ spec:
       autoscaling:
         enabled: false
       memoryLimits: "5120Mi"
+      memoryRequests: "2048Mi"
       cpuLimits: "5000m"
       environment:
         CCD_CONDITIONAL_APIS_CASE_ASSIGNED_USER_AND_ROLES_ENABLED: true
