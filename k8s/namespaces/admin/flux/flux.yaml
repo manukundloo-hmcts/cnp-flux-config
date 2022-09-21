@@ -17,7 +17,7 @@ spec:
     version: 1.10.0
   values:
     git:
-      url: git@github.com:hmcts/cnp-flux-config
+      url: git@github.com:hmcts/cnp-flux-config?ref=cluster-freeze
       pollInterval: 3m
       secretName: flux-git-deploy
       timeout: "180s"

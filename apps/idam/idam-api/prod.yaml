@@ -1,0 +1,10 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: idam-api
+  namespace: idam
+spec:
+  releaseName: idam-api
+  values:
+    java:
+      replicas: 1
