@@ -5,6 +5,7 @@ metadata:
 spec:
   values:
     job:
+      suspend: true
       schedule: "0 9-17 * * *"
       environment:
         JOB_NAME: RESET_PROBLEM_MESSAGES
