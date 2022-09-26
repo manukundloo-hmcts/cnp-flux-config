@@ -7,4 +7,4 @@ spec:
   releaseName: idam-api
   values:
     java:
-      replicas: 1
+      replicas: 2

@@ -5,7 +5,7 @@ metadata:
 spec:
   values:
     java:
-      replicas: 7
+      replicas: 2
       memoryRequests: "3Gi"
       cpuRequests: "1"
       memoryLimits: "4Gi"
