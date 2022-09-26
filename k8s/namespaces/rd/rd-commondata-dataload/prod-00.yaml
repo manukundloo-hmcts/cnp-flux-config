@@ -5,6 +5,7 @@ metadata:
 spec:
   values:
     job:
+      suspend: true
       schedule: "00 20 * * *"
       environment:
         DELETE_ORG: false

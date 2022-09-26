@@ -7,6 +7,7 @@ spec:
   releaseName: bar-payment-job
   values:
     job:
+      suspend: true
       environment:
         REPORT_NAME: bar-csv-report
     global:

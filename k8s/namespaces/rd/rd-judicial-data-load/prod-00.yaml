@@ -6,6 +6,7 @@ spec:
   values:
     job:
       schedule: "0 0 * * *"
+      suspend: true
       environment:
         DELETE_ORG: false
         JRD_SIDAM_SEARCH_QUERY: "(roles:judiciary) AND lastModified:>now-%sh"

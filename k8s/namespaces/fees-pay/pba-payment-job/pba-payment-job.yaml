@@ -14,6 +14,7 @@ spec:
     path: stable/payment-jobs
   values:
     job:
+      suspend: true
       image: "hmctspublic.azurecr.io/payment/jobs:prod-60cfe0a-20220921122943" #{"$imagepolicy": "flux-system:pba-csv-report"}
       schedule: "30 2 * * *"
       environment:

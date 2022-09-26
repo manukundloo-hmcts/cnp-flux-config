@@ -4,6 +4,7 @@ metadata:
   name: check-acr-sync
   namespace: monitoring
 spec:
+  suspend: true
   jobTemplate:
     spec:
       template:

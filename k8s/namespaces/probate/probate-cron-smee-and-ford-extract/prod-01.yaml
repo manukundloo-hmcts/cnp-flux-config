@@ -6,4 +6,5 @@ spec:
   releaseName: probate-cron-smee-and-ford-extract
   values:
     job:
+      suspend: true
       schedule: "25 2 2-30/2 * *"

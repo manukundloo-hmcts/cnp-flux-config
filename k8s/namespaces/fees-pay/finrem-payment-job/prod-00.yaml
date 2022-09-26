@@ -7,6 +7,7 @@ spec:
   releaseName: finrem-payment-job
   values:
     job:
+      suspend: true
       environment:
         REPORT_NAME: pba-finrem-weekly-csv-report
     global:
