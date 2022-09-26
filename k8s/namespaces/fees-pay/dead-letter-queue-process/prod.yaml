@@ -3,9 +3,10 @@ kind: HelmRelease
 metadata:
   name: dead-letter-queue-process
 spec:
-  job:
-    suspend: true
-    environment:
-      DUMMY_RESTART_VAR: true
-  global:
-    environment: prod
+  values:
+    job:
+      suspend: true
+      environment:
+        DUMMY_RESTART_VAR: true
+    global:
+      environment: prod
