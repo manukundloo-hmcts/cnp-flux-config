@@ -5,7 +5,7 @@ metadata:
 spec:
   values:
     java:
-      replicas: 2
+      replicas: 0
       memoryRequests: "3Gi"
       environment:
         FLAG: "refresh2"

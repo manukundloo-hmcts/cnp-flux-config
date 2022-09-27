@@ -6,7 +6,7 @@ spec:
   releaseName: ccd-api-gateway-web
   values:
     nodejs:
-      replicas: 2
+      replicas: 0
       autoscaling:
         enabled: false
       ingressHost: gateway.ccd.platform.hmcts.net
