@@ -5,6 +5,7 @@ metadata:
 spec:
   values:
     java:
+      replicas: 0
       memoryRequests: "1Gi"
       environment:
         WA_AUTO_CONFIGURE_TASKS_ENABLED: true
