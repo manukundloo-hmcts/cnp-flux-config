@@ -9,6 +9,7 @@ metadata:
 spec:
   values:
     java:
+      replicas: 0
       environment:
         PENDING_NOTIFICATIONS_TASK_DELAY_IN_MS: "1800000"
       testsConfig:
