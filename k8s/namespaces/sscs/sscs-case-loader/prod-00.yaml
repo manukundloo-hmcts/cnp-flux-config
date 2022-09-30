@@ -6,8 +6,8 @@ metadata:
 spec:
   values:
     job:
-      suspend: true
-      schedule: "0 2-7/1 * *"
+      suspend: false
+      schedule: "0/15 13-15 * * *"
       startingDeadlineSeconds: 1800
       concurrencyPolicy: Forbid
       memoryRequests: "768Mi"
