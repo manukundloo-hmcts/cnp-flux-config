@@ -5,6 +5,7 @@ metadata:
 spec:
   values:
     java:
+      replicas: 0
       environment:
         DOCMOSIS_TEMPLATES_ENDPOINT: "https://docmosis.platform.hmcts.net"
         DOCMOSIS_CONVERT_ENDPOINT: "https://docmosis.platform.hmcts.net/rs/convert"
